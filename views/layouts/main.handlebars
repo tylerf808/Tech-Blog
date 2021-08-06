@@ -11,13 +11,36 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="row">
-            <button class="col-3">Test</button>
-            <button class="col-3">Test</button>
-            <button class="col-3">Test</button>
-        </nav>
-    </div>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tech Blog</a>
+            <div class="navbar-nav">
+                <div class="navLink">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </div>
+                <div class="navLink">
+                    <a class="nav-link active" href="/profile">Dashboard</a>
+                </div>
+                <div class="navLink">
+                    <a class="nav-link active" href="/login">login</a>
+                </div>
+                {{#if logged_in}}
+                <div class="navLink">
+                    <a class="nav-link active" id="logout">Logout</a>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+    </nav>
+
+    {{{ body }}}
+
+
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
 </body>
+
 
 </html>
