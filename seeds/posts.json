@@ -1,0 +1,22 @@
+[
+    {
+        "post_title": "Javascript is hard",
+        "post_body": "This js stuff is crazy hard!",
+        "user_id": 1
+    },
+    {
+        "post_title": "CSS centering",
+        "post_body": "How do I use flex?",
+        "user_id": 2
+    },
+    {
+        "post_title": "Handlebars are cool!",
+        "post_body": "I love me some handlebars!",
+        "user_id": 3
+    },
+    {
+        "post_title": "Python",
+        "post_body": "tssshhh!",
+        "user_id": 4
+    }
+]
