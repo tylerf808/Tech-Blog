@@ -10,7 +10,7 @@ const seedDatabase = async () => {
     const blogPost = await Post.bulkCreate(postSeedData);
 
     for (const post of blogPost) {
-        await Posts.create({ ...post, user_id: users.id, });
+        await Post.create({ ...post, user_id: users.id, });
     }
 
     process.exit(0);

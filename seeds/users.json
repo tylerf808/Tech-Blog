@@ -2,21 +2,25 @@
     {
         "name": "Tyler",
         "email": "tyler@tyler.com",
+        "username": "user1",
         "password": "password"
     },
     {
         "name": "Tyler2",
         "email": "tyler2@tyler.com",
+        "username": "user2",
         "password": "password"
     },
     {
         "name": "Tyler3",
         "email": "tyler3@tyler.com",
+        "username": "user3",
         "password": "password"
     },
     {
         "name": "Tyler4",
         "email": "tyler4@tyler.com",
+        "username": "user4",
         "password": "password"
     }
 ]
