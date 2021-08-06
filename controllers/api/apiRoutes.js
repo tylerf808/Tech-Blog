@@ -18,7 +18,7 @@ router.post('/createPost', withAuth, async (req, res) => {
 });
 
 
-router.delete('/delete', withAuth, async (req, res) => {
+router.delete('/deletePost', withAuth, async (req, res) => {
     try {
         const post = await Posts.destroy({
             where: {
@@ -39,7 +39,7 @@ router.delete('/delete', withAuth, async (req, res) => {
 });
 
 
-router.put('/:id', (req, res) => {
+router.put('/post/:id', (req, res) => {
     console.log(req.body);
     Posts.update(
         {
